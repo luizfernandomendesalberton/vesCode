@@ -194,4 +194,13 @@ body {
 			position: absolute;
 			background-color: rgb(6, 10, 235);
 		}
+		.clier18{
+			width: 80px; 
+			height: 80px; 
+			left: 910px;
+			top: 1200px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(6, 40, 235);
+		}
 
