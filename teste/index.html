@@ -3,22 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Velha</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página Responsiva com Flexbox, Grid e JS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="tabuleiro">
-        <div class="quadrado">1</div>
-        <div class="quadrado mover">2</div> <!-- Este quadrado vai se mover -->
-        <div class="quadrado">3</div>
-        <div class="quadrado">4</div>
-        <div class="quadrado">5</div>
-        <div class="quadrado">6</div>
-        <div class="quadrado">7</div>
-        <div class="quadrado">8</div>
-        <div class="quadrado">9</div>
-    </div>
+    <header>
+        <h1>Galeria Responsiva com Flexbox, Grid e JavaScript</h1>
+    </header>
 
-    <button type="button" onclick="startMove()">Mover Frente</button>
+    <main>
+        <!-- Seção Flexbox com imagens -->
+        <section class="flex-container">
+            <div class="flex-item">
+                <img src="https://via.placeholder.com/150" alt="Imagem 1">
+                <p>Imagem 1</p>
+            </div>
+            <div class="flex-item">
+                <img src="https://via.placeholder.com/150" alt="Imagem 2">
+                <p>Imagem 2</p>
+            </div>
+            <div class="flex-item">
+                <img src="https://via.placeholder.com/150" alt="Imagem 3">
+                <p>Imagem 3</p>
+            </div>
+        </section>
+
+        <!-- Seção Grid com imagens -->
+        <section class="grid-container">
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/150" alt="Grid Imagem 1">
+                <p>Grid Imagem 1</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/150" alt="Grid Imagem 2">
+                <p>Grid Imagem 2</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/150" alt="Grid Imagem 3">
+                <p>Grid Imagem 3</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/150" alt="Grid Imagem 4">
+                <p>Grid Imagem 4</p>
+            </div>
+        </section>
+
+        <!-- Botão interativo com JavaScript -->
+        <button id="btn-action">Clique aqui para mostrar uma mensagem!</button>
+        <p id="result"></p>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Luiz Fernando © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

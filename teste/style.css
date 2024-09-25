@@ -1,47 +1,64 @@
-body {
+/* Reset básico */
+* {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.tabuleiro {
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.quadrado {
-    width: 100px;
-    height: 100px;
-    border: 2px dashed black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-}
-
-/* Animação para mover o quadrado */
-.mover {
-    position: relative;
-}
-
-@keyframes moverParaFrente {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(110px); /* Move para a frente */
-    }
-}
-
-.mover.ativo {
-    animation: moverParaFrente 1s forwards;
+.grid-item {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
     margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Tornando o layout responsivo */
+@media (max-width: 600px) {
+    .flex-container, .grid-container {
+        flex-direction: column;
+    }
 }
