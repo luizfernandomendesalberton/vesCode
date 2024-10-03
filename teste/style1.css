@@ -6,21 +6,6 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-menu,
-ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  width: 400px;
-}
-
-li {
-  flex-grow: 1;
-}
-
-button {
-  width: 100%;
-}
 
 .container {
     display: flex;
