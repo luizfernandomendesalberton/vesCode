@@ -3,9 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
       { id: 1, model: 'Honda Civic', brand: 'Honda', price: 'R$ 45,000' },
       { id: 2, model: 'Toyota Corolla', brand: 'Toyota', price: 'R$ 50,000' },
       { id: 3, model: 'golf Esportiline', brand: 'woysvagem', price: 'R$ 41,000' },
-      { id: 3, model: 'Ford Fiesta', brand: 'Ford', price: 'R$ 40,000' },
-      { id: 3, model: 'onix', brand: 'chevrole', price: 'R$ 40,000' },
-      { id: 3, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
+      { id: 4, model: 'Ford Fiesta', brand: 'Ford', price: 'R$ 40,000' },
+      { id: 5, model: 'onix', brand: 'chevrole', price: 'R$ 40,000' },
+      { id: 6, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
+      { id: 7, model: 'gol', brand: 'woysvagem', price: 'R$ 32,000' },
+      { id: 8, model: 'voagem', brand: 'woysvagem', price: 'R$ 35,000' },
+      { id: 9, model: 'renegde', brand: 'geep', price: 'R$ 112,000' },
+      { id: 10, model: 'eclips', brand: 'mitsubche', price: 'R$ 110,000' },
+      { id: 11, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
+      { id: 12, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
+      { id: 13, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
+      { id: 14, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
     ];
   
     const carContainer = document.getElementById('car-list');
