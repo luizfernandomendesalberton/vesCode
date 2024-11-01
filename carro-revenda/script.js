@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const carList = [
       { id: 1, model: 'Honda Civic', brand: 'Honda', price: 'R$ 45,000' },
       { id: 2, model: 'Toyota Corolla', brand: 'Toyota', price: 'R$ 50,000' },
-      { id: 3, model: 'golf Esportiline', brand: 'woysvagem', price: 'R$ 41,000' },
+      { id: 3, model: 'golf Esportiline', brand: 'volkswagen', price: 'R$ 41,000' },
       { id: 4, model: 'Ford Fiesta', brand: 'Ford', price: 'R$ 40,000' },
-      { id: 5, model: 'onix', brand: 'chevrole', price: 'R$ 40,000' },
+      { id: 5, model: 'onix', brand: 'chevrolet', price: 'R$ 40,000' },
       { id: 6, model: 'focus', brand: 'Ford', price: 'R$ 40,000' },
       { id: 7, model: 'gol', brand: 'woysvagem', price: 'R$ 32,000' },
       { id: 8, model: 'voagem', brand: 'woysvagem', price: 'R$ 35,000' },
