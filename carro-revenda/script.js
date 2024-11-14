@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   const carList = [
-    { id: 1, model: 'Honda Civic', brand: 'Honda', price: 'R$ 45,000', image: 'url_da_imagem_do_civic.jpg' },
-    { id: 2, model: 'Toyota Corolla', brand: 'Toyota', price: 'R$ 50,000', image: 'url_da_imagem_do_corolla.jpg' },
-    { id: 3, model: 'Golf Esportiline', brand: 'Volkswagen', price: 'R$ 41,000', image: 'url_da_imagem_do_golf.jpg' },
-    { id: 4, model: 'Ford Fiesta', brand: 'Ford', price: 'R$ 40,000', image: 'url_da_imagem_do_fiesta.jpg' },
+    { id: 1, model: 'Honda Civic', brand: 'Honda', price: 'R$ 45,000', image: 'hondacivic.jpg' },
+    { id: 2, model: 'Toyota Corolla', brand: 'Toyota', price: 'R$ 50,000', image: 'corola.jpg' },
+    { id: 3, model: 'Golf Esportiline', brand: 'Volkswagen', price: 'R$ 41,000', image: 'gotf.jpg' },
+    { id: 4, model: 'Ford Fiesta', brand: 'Ford', price: 'R$ 40,000', image: 'fiesta.jpg' },
     { id: 5, model: 'Onix', brand: 'Chevrolet', price: 'R$ 40,000', image: 'url_da_imagem_do_onix.jpg' },
     { id: 6, model: 'Focus', brand: 'Ford', price: 'R$ 40,000', image: 'url_da_imagem_do_focus.jpg' },
     // Adicione mais carros conforme necessário
