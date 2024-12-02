@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Lista de posts
     const posts = [
-      { title: 'Primeiro Post', content: 'Este é o conteúdo do meu primeiro post!' },
+      { title: 'Primeiro Post', content: 'Este é o conteúdo do meu primeiro post!', Image :"foto.jpg" },
       { title: 'Segundo Post', content: 'Mais informações sobre o segundo post.' },
       { title: 'Outro Tópico', content: 'Explorando outros temas neste post.' },
     ];
