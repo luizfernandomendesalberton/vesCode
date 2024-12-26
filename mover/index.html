@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Cobrinha</title>
     <link rel="stylesheet" href="style.css">
+    <title>Jogo da Cobrinha</title>
 </head>
 <body>
-    <h1>Jogo da Cobrinha</h1>
-    <div id="game-area">
-        <canvas id="snake-game" width="400" height="400"></canvas>
+    <div class="container">
+        <h1>Jogo da Cobrinha</h1>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="score">Pontuação: <span id="score">0</span></div>
+        <button id="startBtn">Iniciar Jogo</button>
     </div>
     <script src="script.js"></script>
 </body>
-</
+</html>

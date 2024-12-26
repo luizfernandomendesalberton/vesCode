@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    
+}
+.header{
+   width: flex;
+   height: flex;
+   display: grid;
+}
