@@ -1,0 +1,28 @@
+[
+{
+    "nome": "HTTP",
+    "descricao": "Protocolo de comunicação para transferência de dados na web.",
+    "utilizacao": "Navegadores acessando páginas da web."
+},
+{
+    "nome": "FTP",
+    "descricao": "Protocolo de transferência de arquivos.",
+    "utilizacao": "Upload e download de arquivos em servidores remotos."
+}
+,
+{
+    "nome": "SMTP",
+    "descricao": "Protocolo de envio de e-mails.",
+    "utilizacao": "Envio de mensagens eletrônicas."
+},
+{
+    "nome": "POP3",
+    "descricao": "Protocolo de recebimento de e-mails.",
+    "utilizacao": "Recebimento de mensagens eletrônicas."
+},
+{
+    "nome": "IMAP",
+    "descricao": "Protocolo de acesso a e-mails.",
+    "utilizacao": "Acesso a mensagens eletrônicas em servidores."
+}
+]

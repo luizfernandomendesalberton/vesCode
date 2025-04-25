@@ -1,0 +1,56 @@
+html{
+    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('foto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login{
+    background-color: #1239503d;
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    margin: auto;
+    margin-top: 200px;
+    color: rgb(240, 240, 240);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.login input[type="text"],
+.login input[type="password"]{
+    width: auto;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+.login input[type="submit"]{
+    background-color: #4CAF50;
+    color: rgb(189, 72, 72);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login input[type="submit"]:hover{
+    background-color: #45a049;
+}
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
