@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "HTTP",
+        "descricao": "Protocolo de comunicação para transferência de dados na web.",
+        "utilizacao": "Navegadores acessando páginas da web."
+    },
+    {
+        "nome": "FTP",
+        "descricao": "Protocolo de transferência de arquivos.",
+        "utilizacao": "Upload e download de arquivos em servidores remotos."
+    }
+]

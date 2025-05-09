@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <link rel="stylesheet" href="style.css">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Funcionários</title>
+
+    <!-- Link para o CSS do DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+
+    <!-- Link para o CSS personalizado -->
+  
+
+</head>
+<body>
+    <div class="container">
+        <h1>Gestão de Funcionários</h1>
+
+        <!-- Tabela de Funcionários -->
+        <table id="funcionarios" class="display">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Cargo</th>
+                    <th>Departamento</th>
+                    <th>Data de Admissão</th>
+                    <th>Salário</th>
+                    <th>Status</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                    <th>Data de Nascimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    
+                    <td>João Silva</td>
+                    <td>Analista de TI</td>
+                    <td>TI</td>
+                    <td>01/01/2020</td>
+                    <td>R$ 3.500</td>
+                    <td>Ativo</td>
+                    <td>(11) 91234-5678</td>
+                    <td>joao.silva@email.com</td>
+                    <td>10/05/1985</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Maria Oliveira</td>
+                    <td>Assistente RH</td>
+                    <td>RH</td>
+                    <td>15/03/2021</td>
+                    <td>R$ 2.200</td>
+                    <td>Ativo</td>
+                    <td>(11) 98765-4321</td>
+                    <td>maria.oliveira@email.com</td>
+                    <td>25/07/1990</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Link para o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Link para o JS do DataTables -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+    <!-- Link para o JS personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>

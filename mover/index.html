@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Cobrinha</title>
 </head>
 <body>
-    <div id="quadrado1" class="quadrado1">1</div>
-    <div id="quadrado2" class="quadrado2">2</div>
-
-    
-    <button type="button" onclick="startMove()">Mover Frente</button>
-    <button type="button" onclick= "frente" >frente</button>
+    <div class="container">
+        <h1>Jogo da Cobrinha</h1>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="score">Pontuação: <span id="score">0</span></div>
+        <button id="startBtn">Iniciar Jogo</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

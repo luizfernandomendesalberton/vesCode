@@ -1,10 +1,8 @@
-// Função para alternar a classe "active" no sidenav
 function toggleSidenav() {
-    if (sidenav) {
-        sidenav.classList.toggle('active');
-    }
+    if(sidenav) {
+        sidenav.classList.toggle(' active ');
 }
-
+}
 // Verifica se o botão de menu e o sidenav existem no DOM
 const menuToggle = document.getElementById('menu-toggle');
 const sidenav = document.getElementById('sidenav');
